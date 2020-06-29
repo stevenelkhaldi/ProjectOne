@@ -15,9 +15,11 @@ const Picker = ({onChangeValue, placeHolder}) => {
                 ]}
                 onValueChange={onChangeValue}
                 placeholder={placeHolder}
+                
                 />
         </View>
     )
 }
+// Custom Picker
 
 export default Picker; 
